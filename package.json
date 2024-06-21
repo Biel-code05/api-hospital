@@ -1,0 +1,19 @@
+{
+  "name": "api-hospital",
+  "version": "1.0.0",
+  "description": "Criando uma api em Node.js ligada ao banco MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Gabriel Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
